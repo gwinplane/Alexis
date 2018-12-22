@@ -68,15 +68,18 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-top: 162px;
 }
 
 .absol__cont__text__title {
 	display: block;
+	font-family: "Libre Baskerville"; 
 	font-size: 60px;
 	line-height: 85px;
 	color: #fff;
-	max-width: 791px;
+	max-width: 821px;
 	text-align: center;
+	padding-bottom: 6px;
 }
 
 .absol__cont__text__btn {
@@ -106,4 +109,57 @@ body {
 
 .btn:active {
 	background-color: #b81609;
+}
+
+.absol__cont__text__items {
+	display: flex;
+}
+
+.absol__cont__text__items--green {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #38c695;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 0 50px;
+}
+
+.absol__cont__text__items--blue {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #ab78ea;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 0 50px;
+}
+
+.absol__cont__text__items--yellow {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #fdb860;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 0 50px;
+}
+
+.icoz {
+	font-size: 30px;
+}
+
+.absol__cont__text__items--tgreen {
+	display: block;
+	padding-top: 30px;
+}
+
+.absol__cont__text__items--tblue {
+	display: block;
+	padding-top: 30px;
+}
+
+.absol__cont__text__items--tyellow {
+	display: block;
+	padding-top: 30px;
 }
