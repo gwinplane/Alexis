@@ -44,6 +44,12 @@ body {
 	padding: 0 10px;
 }
 
+.header__wrap__nav__list .header__wrap__nav__list--item a {
+	text-decoration: none;
+	color: #000;
+	font-weight: 500;
+}
+
 .absol__wrap {
 	position: relative;
 	max-height: 850px;
@@ -162,4 +168,162 @@ body {
 .absol__cont__text__items--tyellow {
 	display: block;
 	padding-top: 30px;
+}
+
+
+.about__wrap {
+	display: flex;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+
+.about__left {
+	z-index: 1;
+}
+
+.about__left img {
+	display: block;
+}
+
+.about__right {
+	width: 654px;
+	height: 546px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-image: url(../img/line.png);
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+	z-index: 2;
+	margin-left: -67px;
+	margin-top: 75px;
+	position: relative;
+	background-color: #fff;
+	padding: 110px 0 50px 67px;
+}
+
+.about__right__count {
+	position: absolute;
+	z-index: -1;
+	font-size: 273px;
+	font-weight: bold;
+	line-height: 0.8em;
+	color: #f6f6f6;
+	top: 0;
+	left: 0;
+}
+
+.about__right__title {
+	display: block;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: "Libre Baskerville";
+	padding-bottom: 28px;
+
+}
+
+.about__right__small {
+	line-height: 27px;
+	display: block;
+	max-width: 491px;
+}
+
+.about__right__small p {
+	margin-bottom: 32px;
+}
+
+.focus {
+	background: #f7f7f7;
+	padding-bottom: 150px;
+}
+
+.focus__title__wrap{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 140px;
+}
+
+.focus__count {
+	font-size: 273px;
+	font-weight: bold;
+	color: #f0f0f0;
+	z-index: 1;
+	position: absolute;
+	top: 0;
+	line-height: 0.8em;
+}
+
+.focus__title {
+	z-index: 2;
+}
+
+.focus__small {
+	z-index: 2;
+	font-size: 18px;
+}
+
+.focus__analytics {
+	display: flex;
+	padding-top: 80px;
+}
+
+.focus__analytics__item{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 15px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 60px 0 60px 0;
+}
+
+.iconr {
+	font-size: 60px;
+	color: #fd7e69;
+}
+
+.icong {
+	font-size: 60px;
+	color: #38c695;
+}
+
+.iconb {
+	font-size: 60px;
+	color: #dfc9fb;
+}
+
+.icony {
+	font-size: 60px;
+	color: #feb960;
+}
+
+.focus__analytics__item__big {
+	font-size: 20px;
+	font-weight: 500;
+	display: block;
+	padding: 25px 0 25px 0;
+}
+
+.focus__analytics__item__small {
+	display: block;
+	max-width: 199px;
+	text-align: center;
+	line-height: 27px;
+}
+
+.borderr {
+	border-bottom: 2px #fd7e69 solid;
+}
+
+.borderg {
+	border-bottom: 2px #38c695 solid;
+}
+
+.borderb {
+	border-bottom: 2px #dfc9fb solid;
+}
+
+.bordery {
+	border-bottom: 2px #feb960 solid;
 }
