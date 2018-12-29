@@ -235,15 +235,19 @@ body {
 	padding-bottom: 150px;
 }
 
-.focus__title__wrap{
+/* 			Общий заголовок */
+
+.all__title__wrap{
 	position: relative;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding-top: 140px;
+	padding-bottom: 68px;
+
 }
 
-.focus__count {
+.all__count {
 	font-size: 273px;
 	font-weight: bold;
 	color: #f0f0f0;
@@ -253,11 +257,11 @@ body {
 	line-height: 0.8em;
 }
 
-.focus__title {
+.all__title {
 	z-index: 2;
 }
 
-.focus__small {
+.all__small {
 	z-index: 2;
 	font-size: 18px;
 }
@@ -290,7 +294,7 @@ body {
 
 .iconb {
 	font-size: 60px;
-	color: #dfc9fb;
+	color: #ab78ea;
 }
 
 .icony {
@@ -321,9 +325,190 @@ body {
 }
 
 .borderb {
-	border-bottom: 2px #dfc9fb solid;
+	border-bottom: 2px #ab78ea solid;
 }
 
 .bordery {
 	border-bottom: 2px #feb960 solid;
 }
+
+.video {
+	width: 100%;
+    height: 500px;
+}
+
+.video__wrap {
+	position: relative;
+	width: 100%;
+    height: 500px;
+	
+}
+
+.video__metal iframe {
+	position: absolute;
+	width: 100%;
+}
+
+.video__metal {
+	width: 100%;
+    height: 500px;
+}
+
+.video__metal__text {
+	position: absolute;
+    color: #fff;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video__metal__text--big {
+	font-size: 30px;
+	position: absolute;
+	top: 145px;
+}
+
+.video__metal__text--small {
+	font-size: 15px;
+	position: absolute;
+	top: 292px;
+}
+
+.portfolio__progects {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -10px 0 -10px;
+}
+	/*Выплывающая подсказка на картинке при наведении*/
+
+.portfolio__progects__item {
+	padding: 10px;
+	position: relative;
+	width: calc(100%/3);
+}
+
+.portfolio-caption {
+	position: absolute;
+	bottom: 0;
+	background: #fff;
+	left: 10px;
+    right: 10px;
+    font-size: 18px;
+    color: #000;
+    letter-spacing: 1px;
+	line-height: 64px;
+    text-align: center;
+    /* padding: 6px 0; */
+    /*display: none;*/  /*если без анимации*/
+    opacity: 0; /*прозрачный*/
+    transition-duration: 0.9s;
+    background-image: url(../img/line_port.png);
+    background-repeat: no-repeat;
+    background-position-y: top;
+}
+
+.portfolio__progects__item img {
+	display: block;
+}
+
+.portfolio__progects__item:hover .portfolio-caption {
+	/* display: block; */ 
+	opacity: 1;  /*непрозрачный*/
+
+}
+
+.team {
+	background-color: #f7f7f7;
+}
+
+.team__positions {
+	display: flex;
+	padding-top: 80px;
+	padding-bottom: 550px;
+	position: relative;
+	
+}
+
+.team__positions__item{
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 15px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	
+}
+
+.team__positions__item__big {
+	font-size: 20px;
+	font-weight: 500;
+	display: block;
+	padding: 25px 0 25px 0;
+}
+
+.red_pos {
+	color: #fd7e69;
+}
+
+.gre_pos {
+	color: #38c695;
+}
+
+.blu_pos {
+	color: #ab78ea;
+}
+
+.yel_pos {
+	color: #fdb860;
+}
+
+.team__positions__item__small {
+	display: block;
+	max-width: 199px;
+	text-align: center;
+	line-height: 27px;
+}
+
+#team__positions__item-found {
+	position: relative;
+	width: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 15px;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	
+}
+
+#team__caption {
+	position: absolute;
+	background: #fff;
+	display: none;
+	height: 180px;
+    width: 1080px;
+    bottom: 322px;
+    left: 15px;
+}
+
+#team__caption:before {
+	content:'';
+	display:block;
+	width:0;
+	height:0;
+	position:absolute;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid #fff;
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    left: 100px;
+    top: -60px;
+    
+}
+
+
+
+
