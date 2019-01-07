@@ -317,19 +317,19 @@ body {
 }
 
 .borderr {
-	border-bottom: 2px #fd7e69 solid;
+	border-bottom: 4px #fd7e69 solid;
 }
 
 .borderg {
-	border-bottom: 2px #38c695 solid;
+	border-bottom: 4px #38c695 solid;
 }
 
 .borderb {
-	border-bottom: 2px #ab78ea solid;
+	border-bottom: 4px #ab78ea solid;
 }
 
 .bordery {
-	border-bottom: 2px #feb960 solid;
+	border-bottom: 4px #feb960 solid;
 }
 
 .video {
@@ -374,6 +374,10 @@ body {
 	font-size: 15px;
 	position: absolute;
 	top: 292px;
+}
+
+.portfolio {
+	padding-bottom: 109px;
 }
 
 .portfolio__progects {
@@ -588,4 +592,172 @@ body {
 
 .fa-r {
 	padding-right: 5px;
+}
+
+.statistic__wrap {
+	position: relative;
+}
+
+.statistic__background img {
+	display: block;
+	width: 100%;
+}
+
+.statistic__content {
+	display: flex;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(39, 40, 41, 0.8);
+}
+
+.statistic__content__list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.statistic__content__list-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 25%;
+
+}
+
+.statistic__content__list-item__num {
+	color: #fff;
+	display: block;
+	font-size: 20px;
+	font-weight: 500;
+	padding-top: 15px;
+}
+
+.statistic__content__list-item__txt {
+	color: #fff;
+	display: block;
+	padding: 16px 0 35px 0;
+}
+
+.steps {
+	padding-top: 10px;
+}
+
+.steps__proj {
+	display: flex;
+	padding-top: 55px;
+}
+
+.steps__proj-pic img {
+	width: 556px;
+	height: auto;
+}
+
+.steps__proj-pic {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	z-index: 1;
+}
+
+.steps__left {
+	width: 460px;
+	height: 300px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	z-index: 2;
+	margin-right: -461px;
+	margin-top: -50px;
+	position: relative;
+	background-color: #fff;
+	padding: 40px 0 50px 122px;
+}
+
+.steps__left__count {
+	position: absolute;
+	z-index: -1;
+	font-size: 50px;
+	font-family: "Libre Baskerville";
+	font-weight: bold;
+	line-height: 0.8em;
+	color: #e0e0e0;
+	top: 0;
+	left: 0;
+	padding: 40px 0 0 40px;
+}
+
+.steps__left__title {
+	display: block;
+	font-size: 25px;
+	padding-bottom: 10px;
+
+}
+
+.steps__left__small {
+	line-height: 27px;
+	display: block;
+	max-width: 288px;
+}
+
+.steps__left__small p {
+	margin-bottom: 32px;
+}
+
+
+.steps__right {
+	width: 460px;
+	height: 300px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	z-index: 2;
+	margin-right: -160px;
+	margin-top: -50px;
+	position: relative;
+	background-color: #fff;
+	padding: 40px 0 50px 122px;
+}
+
+.steps__right__count {
+	position: absolute;
+	z-index: -1;
+	font-size: 50px;
+	font-family: "Libre Baskerville";
+	font-weight: bold;
+	line-height: 0.8em;
+	color: #e0e0e0;
+	top: 0;
+	left: 0;
+	padding: 40px 0 0 40px;
+}
+
+.steps__right__title {
+	display: block;
+	font-size: 25px;
+	padding-bottom: 10px;
+
+}
+
+.steps__right__small {
+	line-height: 27px;
+	display: block;
+	max-width: 288px;
+}
+
+.steps__right__small p {
+	margin-bottom: 32px;
+}
+
+.right_02 {
+	margin-left: -165px;
+	margin-top: 239px;
+}
+
+.left_03 {
+	margin-right: -165px;
+	margin-top: 550px;
+}
+
+.right_04 {
+	margin-left: -300px;
+	margin-top: 855px;
 }
