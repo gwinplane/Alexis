@@ -909,3 +909,103 @@ body {
 	border: 2px #b27cf5 solid;
 	color: #b27cf5;
 }
+
+.test {
+	background-color: #3f4049;
+	padding-bottom: 145px;
+}
+
+.count-grey {
+	color: #484951;
+}
+
+.white__title {
+	color: #fff;
+}
+
+.all__small-white {
+	color: #fff;
+}
+
+.test__click-all {
+	display: flex;
+	align-items: center;
+}
+
+.test__click-letter {
+	position: relative;
+	background-color: #fff;
+	z-index: 1;
+	height: fit-content;
+	border-bottom: 4px #fc5f45 solid;
+}
+
+.test__click-letter__lap {
+	position: absolute;
+	z-index: -1;
+	font-size: 300px;
+	font-family: "Libre Baskerville";
+	font-weight: bold;
+	line-height: 0.8em;
+	color: #f6f6f6;
+	top: 0;
+	left: 0;
+	padding: 40px 0 0 0px;
+}
+
+.test__click-letter__text {
+	display: block;
+	padding: 40px 70px 0 55px;
+	line-height: 27px;
+}
+
+.test__click-letter__pic {
+	display: block;
+	padding: 40px 0 0 55px;
+}
+
+.test__click-letter__name {
+	display: block;
+	padding: 20px 0 0 55px;
+	font-weight: 600;
+	font-size: 18px;
+}
+
+.test__click-letter__status {
+	display: block;
+	padding: 0px 0 30px 55px;
+	font-size: 13px;
+	color: #fc5f45;
+}
+
+.select__kinds__item {
+	width: 33.33%;
+	padding: 30px 40px;
+}
+
+.select__kinds__item-all {
+	display: flex;
+}
+
+.select__kinds {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -40px 0 -40px;
+}
+
+.select__kinds__item-all__title {
+	display: block;
+	max-width: 122px;
+	font-weight: 500;
+	font-size: 18px;
+	padding-left: 15px;
+}
+
+.award {
+	max-width: 155px;
+}
+
+.select__kinds__item-text {
+	display: block;
+	padding-top: 20px;
+}
