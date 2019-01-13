@@ -1295,3 +1295,59 @@ body {
 	text-align: center;
 	padding-top: 50px;
 }
+
+.footer {
+	background-color: #cccccc;
+	padding-top: 150px;
+	padding-bottom: 130px;
+
+}
+
+.footer__wrap {
+	background-color: #3f4049;
+	background-image: url(../img/line_foot.png);
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+	height: 220px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.footer__wrap__item--green {
+	color: #38c695;
+	display: block;
+	font-size: 18px;
+}
+
+.footer__wrap__item--blue {
+	color: #b27cf5;
+	display: block;
+	font-size: 18px;
+}
+
+.footer__wrap__item--yellow {
+	color: #feb960;
+	display: block;
+	font-size: 18px;
+}
+
+.footer__wrap__item-adr {
+	display: block;
+	color: #fff;
+	max-width: 188px;
+	padding-top: 33px;
+}
+
+.footer__wrap__item-icons {
+	display: block;
+	margin: 0 -5px;
+	padding-top: 26px;
+}
+
+.foot_ico {
+	text-decoration: none;
+	color: #fff;
+	font-size: 35px;
+	padding: 0 5px;
+}
