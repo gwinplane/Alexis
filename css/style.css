@@ -31,6 +31,23 @@ body {
 	align-items: center;
 }
 
+.header__wrap__nav {
+	display: flex;
+	position: relative;
+}
+
+.burger {
+	font-size: 24px;
+	display: none;
+}
+
+.burger__trigger {
+	position: absolute;
+	height: 26px;
+	width: 22px;
+
+}
+
 .header__wrap__nav__list {
 	display: flex;
 	list-style: none;
@@ -1446,4 +1463,41 @@ body {
 	.absol__cont__text__title {
 		font-size: 50px;
 	}
+
+	.burger {
+		display: block;
+	}
+
+	.absol {
+		z-index: 1;
+	}
+
+
+	.header__wrap__nav__list--item:hover {
+		color: #fff;
+		background-color: grey;
+	}
+
+	.header__wrap__nav__list {
+		opacity: 0;
+		display: block;
+		flex-direction: column;
+		position: absolute;
+		border: 1px #000 solid;
+		z-index: 2;
+		margin-top: 30px;
+		right: 9px;
+		transition: all 0.5s;
+		background-color: #fff;
+		border-radius: 5px;
+	}
+
+	.header__wrap__nav__list_opened {
+		opacity: 1;
+
+	}
+
+	
+
+	
 }
