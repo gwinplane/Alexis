@@ -19,6 +19,8 @@ $(function(){
 
 })
 
+$('.js-block').first().addClass("active-box").slideDown();
+
 $('.js-block-item').click(function() {
 	$('.js-block').siblings('.js-block').removeClass("active-box").slideUp();
     $('.js-block.' + $(this).attr("id")).addClass("active-box").toggle();
