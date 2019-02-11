@@ -165,7 +165,7 @@ body {
 	color: #fdb860;
 	font-size: 18px;
 	text-transform: uppercase;
-	padding: 0 50px;
+	padding: 0 30px;
 }
 
 .icoz {
@@ -1378,6 +1378,13 @@ body {
 
 
 
+
+
+/*Адаптивность*/
+
+
+
+
 @media screen and (max-width: 1400px) {
 	.absol__cont__text {
 		padding-top: 70px;
@@ -1467,7 +1474,8 @@ body {
 
 @media screen and (max-width: 992px) {
 	.absol__cont__text__title {
-		font-size: 50px;
+		font-size: 45px;
+		line-height: normal;
 	}
 
 	.burger {
@@ -1503,11 +1511,114 @@ body {
 
 	}
 
-	
+	.absol__cont__text__btn {
+		padding-bottom: 20px;
+		padding-top: 10px;
+
+	}
+
+	.icoz {
+		font-size: 20px;
+	}
+
+	.absol__cont__text__items--tgreen {
+		padding-top: 5px;
+		text-align: center;
+	}
+
+	.absol__cont__text__items--tblue {
+		padding-top: 5px;
+		text-align: center;
+	}
+
+	.absol__cont__text__items--tyellow {
+		padding-top: 5px;
+		text-align: center;
+	}
 
 	
 }
 
 @media screen and (max-width: 768px) {
+	.absol__cont__text__title {
+		font-size: 35px;
+	}
+
+	.btn {
+		height: 40px;
+		width: 160px;
+	}
+
+	.icoz {
+		font-size: 13px;
+	}
+
+	.absol__cont__text__btn {
+		padding-bottom: 8px;
+		padding-top: 3px;
+	}
+
+	.absol__cont__text__items--tgreen {
+		padding-top: 2px;
+		font-size: 9px;
+	}
+
+	.absol__cont__text__items--tblue {
+		padding-top: 2px;
+		font-size: 9px;
+	}
+
+	.absol__cont__text__items--tyellow {
+		padding-top: 2px;
+		font-size: 9px;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+	.absol__cont__text__title {
+		font-size: 18px;
+	}
+
+	.btn {
+		height: 28px;
+		width: 130px;
+		font-size: 12px;
+	}
+
+	.absol__cont__text__items {
+		flex-direction: column;
+	}
+
+	.absol__cont__text__items--green {
+		flex-direction: row;
+		padding: 0;
+	}
+
+	.absol__cont__text__items--blue{
+		flex-direction: row;
+		padding: 0; 
+	}
+
+	.absol__cont__text__items--yellow {
+		flex-direction: row;
+		padding: 0;
+	}
+
+	.absol__cont__text__items--tgreen {
+		padding-left: 5px;
+	}
+
+	.absol__cont__text__items--tblue{
+		padding-left: 5px;
+	}
+
+	.absol__cont__text__items--tyellow {
+		padding-left: 5px;
+	}
+
+
+
+
 
 }
