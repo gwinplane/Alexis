@@ -1536,7 +1536,17 @@ body {
 		text-align: center;
 	}
 
-	
+	.about__wrap {
+		flex-direction: column;
+		align-items: center;
+		padding: 0;
+	}
+
+	.about__right {
+		margin-top: 0;
+		margin-left: 0;
+
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -1573,6 +1583,20 @@ body {
 		font-size: 9px;
 	}
 
+	.about__right {
+		width: 85%;
+		height: 546px;
+		padding: 13px 0 50px 20px;
+	}
+
+	.about__right__count {
+		font-size: 200px;
+	}
+
+	.about__right__small p {
+		margin-bottom: 10px;
+		font-size: 13px;
+	}
 }
 
 @media screen and (max-width: 480px) {
@@ -1617,7 +1641,15 @@ body {
 		padding-left: 5px;
 	}
 
+	.about__right__title {
 
+		font-size: 42px;
+	}
+
+	.about__right__small p {
+		margin-bottom: 10px;
+		font-size: 11px;
+	}
 
 
 
